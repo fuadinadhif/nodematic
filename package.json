@@ -1,0 +1,25 @@
+{
+  "name": "nodematic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^5.21.1",
+    "express": "^4.21.1",
+    "handlebars": "^4.7.8",
+    "node-schedule": "^2.1.1",
+    "resend": "^4.0.1-alpha.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node-schedule": "^2.1.7",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
